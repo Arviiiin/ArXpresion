@@ -20,10 +20,17 @@ local WalkSpeed = Instance.new("TextButton")
 local Btools = Instance.new("TextButton")
 local HitBox = Instance.new("TextButton")
 local Esp = Instance.new("TextButton")
-local Frame = Instance.new("Frame")
+local OwnerToggle = Instance.new("Frame")
 local TextLabel_5 = Instance.new("TextLabel")
 local TextLabel_6 = Instance.new("TextLabel")
 local crim = Instance.new("TextButton")
+local GUNMODE = Instance.new("Frame")
+local ShutGun = Instance.new("TextButton")
+local Pistol = Instance.new("TextButton")
+local AK47 = Instance.new("TextButton")
+local TextLabel_7 = Instance.new("TextLabel")
+local Key = Instance.new("TextButton")
+
 game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Enjoy!", Text = "Made By !Arvin#7777."})
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
@@ -32,14 +39,15 @@ ScreenGui.ResetOnSpawn=false
 MainFrame.Name = "Main Frame"
 MainFrame.Parent = ScreenGui
 MainFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-MainFrame.Position = UDim2.new(0.190693438, 0, 0.077738516, 0)
+MainFrame.Position = UDim2.new(0.3841241, 0, 0.0583038852, 0)
 MainFrame.Size = UDim2.new(0, 412, 0, 499)
-MainFrame.Active=true
-MainFrame.Draggable=true
+MainFrame.Active = true
+MainFrame.Draggable = true
 
 TextLabel.Parent = MainFrame
 TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
-TextLabel.Size = UDim2.new(0, 412, 0, 38)
+TextLabel.Position = UDim2.new(0.00242718449, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 411, 0, 31)
 TextLabel.Font = Enum.Font.SourceSans
 TextLabel.Text = "ArX Presion Life V1.0"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -163,7 +171,7 @@ TextLabel_3.TextSize = 14.000
 
 TextLabel_4.Parent = MainFrame
 TextLabel_4.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
-TextLabel_4.Position = UDim2.new(0.256794333, 0, 0.0748670697, 0)
+TextLabel_4.Position = UDim2.new(0.254367143, 0, 0.0748670697, 0)
 TextLabel_4.Size = UDim2.new(0, 200, 0, 20)
 TextLabel_4.Font = Enum.Font.SourceSans
 TextLabel_4.Text = "Team"
@@ -203,7 +211,7 @@ WalkSpeed.TextSize = 25.000
 Btools.Name = "Btools"
 Btools.Parent = MainFrame
 Btools.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
-Btools.Position = UDim2.new(0.390776694, 0, 0.350701421, 0)
+Btools.Position = UDim2.new(0.388349503, 0, 0.280561149, 0)
 Btools.Size = UDim2.new(0, 92, 0, 72)
 Btools.Font = Enum.Font.SourceSans
 Btools.Text = "Btools"
@@ -230,12 +238,13 @@ Esp.Text = "Esp"
 Esp.TextColor3 = Color3.fromRGB(0, 0, 0)
 Esp.TextSize = 25.000
 
-Frame.Parent = MainFrame
-Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Frame.Position = UDim2.new(1, 0, 0.334669352, 0)
-Frame.Size = UDim2.new(0, 299, 0, 171)
+OwnerToggle.Name = "Owner Toggle"
+OwnerToggle.Parent = MainFrame
+OwnerToggle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OwnerToggle.Position = UDim2.new(1, 0, 0.334669352, 0)
+OwnerToggle.Size = UDim2.new(0, 299, 0, 171)
 
-TextLabel_5.Parent = Frame
+TextLabel_5.Parent = OwnerToggle
 TextLabel_5.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
 TextLabel_5.Position = UDim2.new(0.163879603, 0, 0.485380083, 0)
 TextLabel_5.Size = UDim2.new(0, 200, 0, 50)
@@ -244,7 +253,7 @@ TextLabel_5.Text = "Made By Arvin#7777"
 TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_5.TextSize = 25.000
 
-TextLabel_6.Parent = Frame
+TextLabel_6.Parent = OwnerToggle
 TextLabel_6.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
 TextLabel_6.Position = UDim2.new(0.163879603, 0, 0.134503007, 0)
 TextLabel_6.Size = UDim2.new(0, 200, 0, 44)
@@ -263,9 +272,63 @@ crim.Text = "crim"
 crim.TextColor3 = Color3.fromRGB(0, 0, 0)
 crim.TextSize = 14.000
 
+GUNMODE.Name = "GUN MODE"
+GUNMODE.Parent = MainFrame
+GUNMODE.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+GUNMODE.Position = UDim2.new(-0.834738851, 0, 0.281279922, 0)
+GUNMODE.Size = UDim2.new(0, 343, 0, 254)
+
+ShutGun.Name = "ShutGun"
+ShutGun.Parent = GUNMODE
+ShutGun.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+ShutGun.Position = UDim2.new(0.575639009, 0, 0.201095074, 0)
+ShutGun.Size = UDim2.new(0, 145, 0, 42)
+ShutGun.Font = Enum.Font.SourceSans
+ShutGun.Text = "Shutgun"
+ShutGun.TextColor3 = Color3.fromRGB(0, 0, 0)
+ShutGun.TextSize = 25.000
+
+Pistol.Name = "Pistol"
+Pistol.Parent = GUNMODE
+Pistol.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+Pistol.Position = UDim2.new(0.287009239, 0, 0.50818181, 0)
+Pistol.Size = UDim2.new(0, 145, 0, 42)
+Pistol.Font = Enum.Font.SourceSans
+Pistol.Text = "Pistol"
+Pistol.TextColor3 = Color3.fromRGB(0, 0, 0)
+Pistol.TextSize = 25.000
+
+AK47.Name = "AK-47"
+AK47.Parent = GUNMODE
+AK47.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+AK47.Position = UDim2.new(-0.00279521383, 0, 0.199501365, 0)
+AK47.Size = UDim2.new(0, 145, 0, 42)
+AK47.Font = Enum.Font.SourceSans
+AK47.Text = "Ak "
+AK47.TextColor3 = Color3.fromRGB(0, 0, 0)
+AK47.TextSize = 25.000
+
+TextLabel_7.Parent = GUNMODE
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+TextLabel_7.Size = UDim2.new(0, 344, 0, 41)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "GUN MODE"
+TextLabel_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.TextSize = 25.000
+
+Key.Name = "Key"
+Key.Parent = MainFrame
+Key.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+Key.Position = UDim2.new(0.38713935, 0, 0.456913829, 0)
+Key.Size = UDim2.new(0, 92, 0, 72)
+Key.Font = Enum.Font.SourceSans
+Key.Text = "Key Giver"
+Key.TextColor3 = Color3.fromRGB(0, 0, 0)
+Key.TextSize = 25.000
+
 -- Scripts:
 
-local function DWBLZQN_fake_script() -- MainFrame.Close Open 
+local function OOYVYW_fake_script() -- MainFrame.Close Open 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local Plr = game.Players.LocalPlayer
@@ -285,7 +348,7 @@ local function DWBLZQN_fake_script() -- MainFrame.Close Open
 	end)
 	
 end
-coroutine.wrap(DWBLZQN_fake_script)()
+coroutine.wrap(OOYVYW_fake_script)()
 
 police.MouseButton1Down:connect(function()
 	workspace.Remote.TeamEvent:FireServer("Bright blue")
@@ -987,5 +1050,54 @@ crim.MouseButton1Down:connect(function()
 
 	wait(0.3)
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(918.77,100,2379.07)
+end)
+
+Key.MouseButton1Down:connect(function()
+	local Remote = game.Workspace.Remote['ItemHandler']
+
+	local Arguments = {
+		[1] = Workspace.Prison_ITEMS.single:WaitForChild("Key card").ITEMPICKUP
+	}
+
+	Remote:InvokeServer(unpack(Arguments))
+end)
+
+AK47.MouseButton1Down:connect(function()
+	Game.Workspace.Remote.ItemHandler:InvokeServer(Workspace["Prison_ITEMS"].giver["AK-47"].ITEMPICKUP)
+	local plr = game.Players.LocalPlayer
+	local gun = plr.Backpack["AK-47"].GunStates
+	local a = require(gun)
+
+	a.MaxAmmo = math.huge
+	a.CurrentAmmo = math.huge
+	a.FireRate = 0
+	a.Range = 4000
+	a.Bullets = 10
+end)
+
+ShutGun.MouseButton1Down:connect(function()
+	Game.Workspace.Remote.ItemHandler:InvokeServer(Workspace["Prison_ITEMS"].giver["Remington 870"].ITEMPICKUP)
+	local plr = game.Players.LocalPlayer
+	local gun = plr.Backpack["Remington 870"].GunStates
+	local a = require(gun)
+
+	a.MaxAmmo = math.huge
+	a.CurrentAmmo = math.huge
+	a.FireRate = 0
+	a.Range = 4000
+	a.Bullets = 10
+end)
+
+Pistol.MouseButton1Down:connect(function()
+	Game.Workspace.Remote.ItemHandler:InvokeServer(Workspace["Prison_ITEMS"].giver["M9"].ITEMPICKUP)
+	local plr = game.Players.LocalPlayer
+	local gun = plr.Backpack["M9"].GunStates
+	local a = require(gun)
+
+	a.MaxAmmo = math.huge
+	a.CurrentAmmo = math.huge
+	a.FireRate = 0
+	a.Range = 4000
+	a.Bullets = 10
 end)
 
