@@ -1,1103 +1,3772 @@
 local ScreenGui = Instance.new("ScreenGui")
+
+
 local MainFrame = Instance.new("Frame")
+
+
 local TextLabel = Instance.new("TextLabel")
+
+
 local invis = Instance.new("TextButton")
+
+
 local guns = Instance.new("TextButton")
+
+
 local superpunch = Instance.new("TextButton")
+
+
 local police = Instance.new("TextButton")
+
+
 local infiniteyield = Instance.new("TextButton")
+
+
 local arrestcrims = Instance.new("TextButton")
+
+
 local fling = Instance.new("TextButton")
+
+
 local TextButton = Instance.new("TextButton")
+
+
 local inmate = Instance.new("TextButton")
+
+
 local neutral = Instance.new("TextButton")
+
+
 local TextLabel_2 = Instance.new("TextLabel")
+
+
 local TextLabel_3 = Instance.new("TextLabel")
+
+
 local TextLabel_4 = Instance.new("TextLabel")
+
+
 local Fly = Instance.new("TextButton")
+
+
 local JumpPower = Instance.new("TextButton")
+
+
 local WalkSpeed = Instance.new("TextButton")
+
+
 local Btools = Instance.new("TextButton")
+
+
 local HitBox = Instance.new("TextButton")
+
+
 local Esp = Instance.new("TextButton")
+
+
 local OwnerToggle = Instance.new("Frame")
+
+
 local TextLabel_5 = Instance.new("TextLabel")
+
+
 local TextLabel_6 = Instance.new("TextLabel")
+
+
 local crim = Instance.new("TextButton")
+
+
 local GUNMODE = Instance.new("Frame")
+
+
 local ShutGun = Instance.new("TextButton")
+
+
 local Pistol = Instance.new("TextButton")
+
+
 local AK47 = Instance.new("TextButton")
+
+
 local TextLabel_7 = Instance.new("TextLabel")
+
+
 local Key = Instance.new("TextButton")
+
+
+local Invisfling = Instance.new("Frame")
+
+
+local FlingV2 = Instance.new("TextButton")
+
+
 
 game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Enjoy!", Text = "Made By !Arvin#7777."})
 
+
+
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-ScreenGui.ResetOnSpawn=false
+
+
+ScreenGui.ResetOnSpawn = false
+
+
 
 MainFrame.Name = "Main Frame"
+
+
 MainFrame.Parent = ScreenGui
+
+
 MainFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-MainFrame.Position = UDim2.new(0.3841241, 0, 0.0583038852, 0)
+
+
+MainFrame.Position = UDim2.new(0.345802933, 0, 0.0583038852, 0)
+
+
 MainFrame.Size = UDim2.new(0, 412, 0, 499)
+
+
 MainFrame.Active = true
+
+
 MainFrame.Draggable = true
 
+
+
 TextLabel.Parent = MainFrame
+
+
 TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+
+
 TextLabel.Position = UDim2.new(0.00242718449, 0, 0, 0)
+
+
 TextLabel.Size = UDim2.new(0, 411, 0, 31)
+
+
 TextLabel.Font = Enum.Font.SourceSans
+
+
 TextLabel.Text = "ArX Presion Life V1.0"
+
+
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
 TextLabel.TextSize = 30.000
 
+
+
 invis.Name = "invis"
+
+
 invis.Parent = MainFrame
+
+
 invis.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+
+
 invis.Position = UDim2.new(0.650485456, 0, 0.384769559, 0)
+
+
 invis.Size = UDim2.new(0, 144, 0, 38)
+
+
 invis.Font = Enum.Font.SourceSans
+
+
 invis.Text = "invis"
+
+
 invis.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
 invis.TextSize = 25.000
 
+
+
 guns.Name = "guns"
+
+
 guns.Parent = MainFrame
+
+
 guns.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+
+
 guns.Position = UDim2.new(0, 0, 0.248496994, 0)
+
+
 guns.Size = UDim2.new(0, 144, 0, 39)
+
+
 guns.Font = Enum.Font.SourceSans
+
+
 guns.Text = "guns"
+
+
 guns.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
 guns.TextSize = 25.000
 
+
+
 superpunch.Name = "superpunch"
+
+
 superpunch.Parent = MainFrame
+
+
 superpunch.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+
+
 superpunch.Position = UDim2.new(0.650485456, 0, 0.248497009, 0)
+
+
 superpunch.Size = UDim2.new(0, 144, 0, 39)
+
+
 superpunch.Font = Enum.Font.SourceSans
+
+
 superpunch.Text = "superpunch"
+
+
 superpunch.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
 superpunch.TextSize = 25.000
 
+
+
 police.Name = "police"
+
+
 police.Parent = MainFrame
+
+
 police.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+
+
 police.Position = UDim2.new(0.766990304, 0, 0.14028053, 0)
+
+
 police.Size = UDim2.new(0, 96, 0, 24)
+
+
 police.Font = Enum.Font.SourceSans
+
+
 police.Text = "police"
+
+
 police.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
 police.TextSize = 14.000
 
+
+
 infiniteyield.Name = "infiniteyield"
+
+
 infiniteyield.Parent = MainFrame
+
+
 infiniteyield.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+
+
 infiniteyield.Position = UDim2.new(0.650485456, 0, 0.523046076, 0)
+
+
 infiniteyield.Size = UDim2.new(0, 144, 0, 39)
+
+
 infiniteyield.Font = Enum.Font.SourceSans
+
+
 infiniteyield.Text = "infiniteyield"
+
+
 infiniteyield.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
 infiniteyield.TextSize = 25.000
 
+
+
 arrestcrims.Name = "arrestcrims"
+
+
 arrestcrims.Parent = MainFrame
+
+
 arrestcrims.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+
+
 arrestcrims.Position = UDim2.new(0, 0, 0.523046076, 0)
+
+
 arrestcrims.Size = UDim2.new(0, 144, 0, 39)
+
+
 arrestcrims.Font = Enum.Font.SourceSans
+
+
 arrestcrims.Text = "arrestcrims"
+
+
 arrestcrims.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
 arrestcrims.TextSize = 25.000
 
+
+
 fling.Name = "fling"
+
+
 fling.Parent = MainFrame
+
+
 fling.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+
+
 fling.Position = UDim2.new(0, 0, 0.384769559, 0)
+
+
 fling.Size = UDim2.new(0, 144, 0, 39)
+
+
 fling.Font = Enum.Font.SourceSans
+
+
 fling.Text = "fling"
+
+
 fling.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
 fling.TextSize = 25.000
 
+
+
 TextButton.Parent = MainFrame
+
+
 TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
 TextButton.Position = UDim2.new(0, 0, 3.5373826, 0)
+
+
 TextButton.Size = UDim2.new(0, 144, 0, 39)
+
+
 TextButton.Font = Enum.Font.SourceSans
+
+
 TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
 TextButton.TextSize = 14.000
 
+
+
 inmate.Name = "inmate"
+
+
 inmate.Parent = MainFrame
+
+
 inmate.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+
+
 inmate.Position = UDim2.new(0.507281601, 0, 0.14028053, 0)
+
+
 inmate.Size = UDim2.new(0, 96, 0, 24)
+
+
 inmate.Font = Enum.Font.SourceSans
+
+
 inmate.Text = "inmate"
+
+
 inmate.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
 inmate.TextSize = 14.000
 
+
+
 neutral.Name = "neutral"
+
+
 neutral.Parent = MainFrame
+
+
 neutral.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+
+
 neutral.Position = UDim2.new(-1.3038516e-08, 0, 0.14028053, 0)
+
+
 neutral.Size = UDim2.new(0, 96, 0, 24)
+
+
 neutral.Font = Enum.Font.SourceSans
+
+
 neutral.Text = "neutral"
+
+
 neutral.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
 neutral.TextSize = 14.000
 
+
+
 TextLabel_2.Parent = MainFrame
+
+
 TextLabel_2.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+
+
 TextLabel_2.Position = UDim2.new(0.256794333, 0, 0.625335515, 0)
+
+
 TextLabel_2.Size = UDim2.new(0, 200, 0, 26)
+
+
 TextLabel_2.Font = Enum.Font.SourceSans
+
+
 TextLabel_2.Text = "Player"
+
+
 TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
 TextLabel_2.TextSize = 14.000
 
+
+
 TextLabel_3.Parent = MainFrame
+
+
 TextLabel_3.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+
+
 TextLabel_3.Position = UDim2.new(0.256794333, 0, 0.207131594, 0)
+
+
 TextLabel_3.Size = UDim2.new(0, 200, 0, 20)
+
+
 TextLabel_3.Font = Enum.Font.SourceSans
+
+
 TextLabel_3.Text = "Game"
+
+
 TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
 TextLabel_3.TextSize = 14.000
 
+
+
 TextLabel_4.Parent = MainFrame
+
+
 TextLabel_4.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+
+
 TextLabel_4.Position = UDim2.new(0.254367143, 0, 0.0748670697, 0)
+
+
 TextLabel_4.Size = UDim2.new(0, 200, 0, 20)
+
+
 TextLabel_4.Font = Enum.Font.SourceSans
+
+
 TextLabel_4.Text = "Team"
+
+
 TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
 TextLabel_4.TextSize = 14.000
 
+
+
 Fly.Name = "Fly"
+
+
 Fly.Parent = MainFrame
+
+
 Fly.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+
+
 Fly.Position = UDim2.new(0.325242728, 0, 0.79158318, 0)
+
+
 Fly.Size = UDim2.new(0, 144, 0, 38)
+
+
 Fly.Font = Enum.Font.SourceSans
+
+
 Fly.Text = "Fly (x)"
+
+
 Fly.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
 Fly.TextSize = 25.000
 
+
+
 JumpPower.Name = "JumpPower"
+
+
 JumpPower.Parent = MainFrame
+
+
 JumpPower.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+
+
 JumpPower.Position = UDim2.new(0.650485456, 0, 0.695390821, 0)
+
+
 JumpPower.Size = UDim2.new(0, 144, 0, 38)
+
+
 JumpPower.Font = Enum.Font.SourceSans
+
+
 JumpPower.Text = "JumpPower"
+
+
 JumpPower.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
 JumpPower.TextSize = 25.000
 
+
+
 WalkSpeed.Name = "WalkSpeed"
+
+
 WalkSpeed.Parent = MainFrame
+
+
 WalkSpeed.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+
+
 WalkSpeed.Position = UDim2.new(0, 0, 0.695390821, 0)
+
+
 WalkSpeed.Size = UDim2.new(0, 144, 0, 38)
+
+
 WalkSpeed.Font = Enum.Font.SourceSans
+
+
 WalkSpeed.Text = "WalkSpeed"
+
+
 WalkSpeed.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
 WalkSpeed.TextSize = 25.000
 
+
+
 Btools.Name = "Btools"
+
+
 Btools.Parent = MainFrame
+
+
 Btools.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+
+
 Btools.Position = UDim2.new(0.388349503, 0, 0.280561149, 0)
+
+
 Btools.Size = UDim2.new(0, 92, 0, 72)
+
+
 Btools.Font = Enum.Font.SourceSans
+
+
 Btools.Text = "Btools"
+
+
 Btools.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
 Btools.TextSize = 25.000
 
+
+
 HitBox.Name = "HitBox"
+
+
 HitBox.Parent = MainFrame
+
+
 HitBox.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+
+
 HitBox.Position = UDim2.new(0.650485456, 0, 0.923847675, 0)
+
+
 HitBox.Size = UDim2.new(0, 144, 0, 38)
+
+
 HitBox.Font = Enum.Font.SourceSans
+
+
 HitBox.Text = "HitBox"
+
+
 HitBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
 HitBox.TextSize = 25.000
 
+
+
 Esp.Name = "Esp"
+
+
 Esp.Parent = MainFrame
+
+
 Esp.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+
+
 Esp.Position = UDim2.new(0, 0, 0.923847675, 0)
+
+
 Esp.Size = UDim2.new(0, 144, 0, 38)
+
+
 Esp.Font = Enum.Font.SourceSans
+
+
 Esp.Text = "Esp"
+
+
 Esp.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
 Esp.TextSize = 25.000
 
+
+
 OwnerToggle.Name = "Owner Toggle"
+
+
 OwnerToggle.Parent = MainFrame
+
+
 OwnerToggle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+
+
 OwnerToggle.Position = UDim2.new(1, 0, 0.334669352, 0)
+
+
 OwnerToggle.Size = UDim2.new(0, 299, 0, 171)
 
+
+
 TextLabel_5.Parent = OwnerToggle
+
+
 TextLabel_5.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+
+
 TextLabel_5.Position = UDim2.new(0.163879603, 0, 0.485380083, 0)
+
+
 TextLabel_5.Size = UDim2.new(0, 200, 0, 50)
+
+
 TextLabel_5.Font = Enum.Font.SourceSans
+
+
 TextLabel_5.Text = "Made By Arvin#7777"
+
+
 TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
 TextLabel_5.TextSize = 25.000
 
+
+
 TextLabel_6.Parent = OwnerToggle
+
+
 TextLabel_6.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+
+
 TextLabel_6.Position = UDim2.new(0.163879603, 0, 0.134503007, 0)
+
+
 TextLabel_6.Size = UDim2.new(0, 200, 0, 44)
+
+
 TextLabel_6.Font = Enum.Font.SourceSans
+
+
 TextLabel_6.Text = "Toggle To Open = v Close = z"
+
+
 TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
 TextLabel_6.TextSize = 20.000
 
+
+
 crim.Name = "crim"
+
+
 crim.Parent = MainFrame
+
+
 crim.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+
+
 crim.Position = UDim2.new(0.254854351, 0, 0.14028053, 0)
+
+
 crim.Size = UDim2.new(0, 96, 0, 24)
+
+
 crim.Font = Enum.Font.SourceSans
+
+
 crim.Text = "crim"
+
+
 crim.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
 crim.TextSize = 14.000
 
+
+
 GUNMODE.Name = "GUN MODE"
+
+
 GUNMODE.Parent = MainFrame
+
+
 GUNMODE.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+
+
 GUNMODE.Position = UDim2.new(-0.834738851, 0, 0.281279922, 0)
+
+
 GUNMODE.Size = UDim2.new(0, 343, 0, 254)
 
+
+
 ShutGun.Name = "ShutGun"
+
+
 ShutGun.Parent = GUNMODE
+
+
 ShutGun.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+
+
 ShutGun.Position = UDim2.new(0.575639009, 0, 0.201095074, 0)
+
+
 ShutGun.Size = UDim2.new(0, 145, 0, 42)
+
+
 ShutGun.Font = Enum.Font.SourceSans
+
+
 ShutGun.Text = "Shutgun"
+
+
 ShutGun.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
 ShutGun.TextSize = 25.000
 
+
+
 Pistol.Name = "Pistol"
+
+
 Pistol.Parent = GUNMODE
+
+
 Pistol.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+
+
 Pistol.Position = UDim2.new(0.287009239, 0, 0.50818181, 0)
+
+
 Pistol.Size = UDim2.new(0, 145, 0, 42)
+
+
 Pistol.Font = Enum.Font.SourceSans
+
+
 Pistol.Text = "Pistol"
+
+
 Pistol.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
 Pistol.TextSize = 25.000
 
+
+
 AK47.Name = "AK-47"
+
+
 AK47.Parent = GUNMODE
+
+
 AK47.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+
+
 AK47.Position = UDim2.new(-0.00279521383, 0, 0.199501365, 0)
+
+
 AK47.Size = UDim2.new(0, 145, 0, 42)
+
+
 AK47.Font = Enum.Font.SourceSans
+
+
 AK47.Text = "Ak "
+
+
 AK47.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
 AK47.TextSize = 25.000
 
+
+
 TextLabel_7.Parent = GUNMODE
+
+
 TextLabel_7.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+
+
 TextLabel_7.Size = UDim2.new(0, 344, 0, 41)
+
+
 TextLabel_7.Font = Enum.Font.SourceSans
+
+
 TextLabel_7.Text = "GUN MODE"
+
+
 TextLabel_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
 TextLabel_7.TextSize = 25.000
 
+
+
 Key.Name = "Key"
+
+
 Key.Parent = MainFrame
+
+
 Key.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+
+
 Key.Position = UDim2.new(0.38713935, 0, 0.456913829, 0)
+
+
 Key.Size = UDim2.new(0, 92, 0, 72)
+
+
 Key.Font = Enum.Font.SourceSans
+
+
 Key.Text = "Key Giver"
+
+
 Key.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
 Key.TextSize = 25.000
+
+
+
+Invisfling.Name = "Invis fling"
+
+
+Invisfling.Parent = MainFrame
+
+
+Invisfling.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+
+
+Invisfling.Position = UDim2.new(1, 0, 3.7252903e-09, 0)
+
+
+Invisfling.Size = UDim2.new(0, 233, 0, 130)
+
+
+
+FlingV2.Name = "Fling V2"
+
+
+FlingV2.Parent = Invisfling
+
+
+FlingV2.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+
+
+FlingV2.Position = UDim2.new(0.124463513, 0, 0.307692319, 0)
+
+
+FlingV2.Size = UDim2.new(0, 175, 0, 50)
+
+
+FlingV2.Font = Enum.Font.SourceSans
+
+
+FlingV2.Text = "invis Fling"
+
+
+FlingV2.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+FlingV2.TextSize = 25.000
+
+
 
 -- Scripts:
 
-local function OOYVYW_fake_script() -- MainFrame.Close Open 
+
+
+local function QQXKDO_fake_script() -- MainFrame.Close Open 
+
+
 	local script = Instance.new('LocalScript', MainFrame)
 
+
+
 	local Plr = game.Players.LocalPlayer
+
+
 	
+
+
 	Plr:GetMouse().KeyDown:Connect(function(K)
+
+
 		if K == "v" then
+
+
 			script.Parent.Visible = true
+
+
 		end
+
+
 	end)
+
+
 	
+
+
 	local Plr = game.Players.LocalPlayer
+
+
 	
+
+
 	Plr:GetMouse().KeyDown:Connect(function(K)
+
+
 		if K == "z" then
+
+
 			script.Parent.Visible = false
+
+
 		end
+
+
 	end)
+
+
 	
+
+
 end
-coroutine.wrap(OOYVYW_fake_script)()
+
+
+coroutine.wrap(QQXKDO_fake_script)()
+
+
 
 police.MouseButton1Down:connect(function()
+
+
 	workspace.Remote.TeamEvent:FireServer("Bright blue")
+
+
 end)
+
+
 
 inmate.MouseButton1Down:connect(function()
+
+
 	workspace.Remote.TeamEvent:FireServer("Bright orange")
+
+
 end)
+
+
 
 neutral.MouseButton1Down:connect(function()
+
+
 	Workspace.Remote.TeamEvent:FireServer("Medium stone grey")
+
+
 end)
+
+
 
 arrestcrims.MouseButton1Down:connect(function()
+
+
 	local Player = game.Players.LocalPlayer
+
+
 	local cpos = Player.Character.HumanoidRootPart.CFrame
+
+
 	for i,v in pairs(game.Teams.Criminals:GetPlayers()) do
+
+
 		if v.Name ~= Player.Name then
+
+
 			local i = 10
+
+
 			repeat
+
+
 				wait()
+
+
 				i = i-1
+
+
 				game.Workspace.Remote.arrest:InvokeServer(v.Character.HumanoidRootPart)
+
+
 				Player.Character.HumanoidRootPart.CFrame = v.Character.HumanoidRootPart.CFrame * CFrame.new(0, 0, 1)
+
+
 			until i == 0
+
+
 		end
+
+
 	end
+
+
 	Player.Character.HumanoidRootPart.CFrame = cpos
+
+
 	Notify("Success", "Arrested all of the n00bs", "Cool!")
+
+
 end)
+
+
 
 invis.MouseButton1Down:connect(function()
+
+
 	local player = game.Players.LocalPlayer
+
+
 	position     = player.Character.HumanoidRootPart.Position
+
+
 	wait(0.1)
+
+
 	player.Character:MoveTo(position + Vector3.new(0, 1000000, 0))
+
+
 	wait(0.1)
+
+
 	humanoidrootpart = player.Character.HumanoidRootPart:clone()
+
+
 	wait(0.1)
+
+
 	player.Character.HumanoidRootPart:Destroy()
+
+
 	humanoidrootpart.Parent = player.Character
+
+
 	player.Character:MoveTo(position)
+
+
 	wait()
+
+
 	-- Remove this if you want to see yourself (others still won't see you)
+
+
 	game.Players.LocalPlayer.Character.Torso.Transparency = 1
+
+
 	game.Players.LocalPlayer.Character.Head.Transparency  = 1
+
+
 	game.Players.LocalPlayer.Character["Left Arm"].Transparency = 1
+
+
 	game.Players.LocalPlayer.Character["Right Arm"].Transparency = 1
+
+
 	game.Players.LocalPlayer.Character["Left Leg"].Transparency = 1
+
+
 	game.Players.LocalPlayer.Character["Right Leg"].Transparency = 1
+
+
 	game.Players.LocalPlayer.Character.Humanoid:RemoveAccessories()
+
+
 	game.Players.LocalPlayer.Character.Head.face:Remove()
+
+
 end)
+
+
 
 superpunch.MouseButton1Down:connect(function()
+
+
 	mainRemotes = game.ReplicatedStorage meleeRemote = mainRemotes['meleeEvent'] mouse = game.Players.LocalPlayer:GetMouse() punching = false cooldown = false function punch() cooldown = true local part = Instance.new("Part", game.Players.LocalPlayer.Character) part.Transparency = 1 part.Size = Vector3.new(5, 2, 3) part.CanCollide = false local w1 = Instance.new("Weld", part) w1.Part0 = game.Players.LocalPlayer.Character.Torso w1.Part1 = part w1.C1 = CFrame.new(0,0,2) part.Touched:connect(function(hit) if game.Players:FindFirstChild(hit.Parent.Name) then local plr = game.Players:FindFirstChild(hit.Parent.Name) if plr.Name ~= game.Players.LocalPlayer.Name then part:Destroy() for i = 1,100 do meleeRemote:FireServer(plr) end end end end) wait(1) cooldown = false part:Destroy() end mouse.KeyDown:connect(function(key) if cooldown == false then if key:lower() == "f" then punch() end end end)
+
+
 end)
+
+
 
 guns.MouseButton1Down:connect(function()
+
+
 	for i,v in pairs(Workspace.Prison_ITEMS.giver:GetChildren()) do
 
+
+
 		lol = Workspace.Remote.ItemHandler:InvokeServer(v.ITEMPICKUP)
+
+
 		print(lol)
+
+
 	end
+
+
 end)
+
+
 
 fling.MouseButton1Down:connect(function()
+
+
 	power = 300 -- change this to make it more or less powerful
 
+
+
 	game:GetService('RunService').Stepped:connect(function()
+
+
 		game.Players.LocalPlayer.Character.Head.CanCollide = false
+
+
 		game.Players.LocalPlayer.Character.Torso.CanCollide = false
+
+
 		game.Players.LocalPlayer.Character["Left Leg"].CanCollide = false
+
+
 		game.Players.LocalPlayer.Character["Right Leg"].CanCollide = false
+
+
 	end)
 
+
+
 	wait(.1)
+
+
 	local bambam = Instance.new("BodyThrust")
+
+
 	bambam.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+
+
 	bambam.Force = Vector3.new(power,0,power)
+
+
 	bambam.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+
+
 end)
+
+
 
 infiniteyield.MouseButton1Down:connect(function()
+
+
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+
+
 end)
+
+
 
 WalkSpeed.MouseButton1Down:connect(function()
+
+
 	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed=350
+
+
 end)
 
+
+
 JumpPower.MouseButton1Down:connect(function()
+
+
 	game.Players.LocalPlayer.Character.Humanoid.JumpPower=700
+
+
 end)
+
+
 
 Fly.MouseButton1Down:connect(function()
 
+
+
 	--Waits until the player is in game
+
+
 	repeat wait()
+
+
 	until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("Torso") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid")
+
+
 	local mouse = game.Players.LocalPlayer:GetMouse()
 
+
+
 	--Waits until the player's mouse is found
+
+
 	repeat wait() until mouse
 
+
+
 	--Variables
+
+
 	local plr = game.Players.LocalPlayer
+
+
 	local torso = plr.Character.Torso
+
+
 	local flying = true
+
+
 	local deb = true
+
+
 	local ctrl = {f = 0, b = 0, l = 0, r = 0}
+
+
 	local lastctrl = {f = 0, b = 0, l = 0, r = 0}
+
+
 	local maxspeed = 50
+
+
 	local speed = 0
+
+
 	local bg = nil
+
+
 	local bv = nil
 
+
+
 	--Actual flying
+
+
 	function Fly()
+
+
 		bg = Instance.new("BodyGyro", torso)
+
+
 		bg.P = 9e4
+
+
 		bg.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+
+
 		bg.cframe = torso.CFrame
+
+
 		bv = Instance.new("BodyVelocity", torso)
+
+
 		bv.velocity = Vector3.new(0,0.1,0)
+
+
 		bv.maxForce = Vector3.new(9e9, 9e9, 9e9)
+
+
 		repeat wait()
+
+
 			plr.Character.Humanoid.PlatformStand = true
+
+
 			if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
+
+
 				speed = speed+.5+(speed/maxspeed)
+
+
 				if speed > maxspeed then
+
+
 					speed = maxspeed
+
+
 				end
+
+
 			elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then
+
+
 				speed = speed-1
+
+
 				if speed < 0 then
+
+
 					speed = 0
+
+
 				end
+
+
 			end
+
+
 			if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then
+
+
 				bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+
+
 				lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r}
+
+
 			elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then
+
+
 				bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+
+
 			else
+
+
 				bv.velocity = Vector3.new(0,0.1,0)
+
+
 			end
+
+
 			bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0)
+
+
 		until not flying
+
+
 		ctrl = {f = 0, b = 0, l = 0, r = 0}
+
+
 		lastctrl = {f = 0, b = 0, l = 0, r = 0}
+
+
 		speed = 0
+
+
 		bg:Destroy()
+
+
 		bg = nil
+
+
 		bv:Destroy()
+
+
 		bv = nil
+
+
 		plr.Character.Humanoid.PlatformStand = false
+
+
 	end
 
+
+
 	--Controls
+
+
 	mouse.KeyDown:connect(function(key)
+
+
 		if key:lower() == "x" then
+
+
 			if flying then 
+
+
 				flying = false
+
+
 			else
+
+
 				flying = true
+
+
 				Fly()
+
+
 			end
+
+
 		elseif key:lower() == "w" then
+
+
 			ctrl.f = 1
+
+
 		elseif key:lower() == "s" then
+
+
 			ctrl.b = -1
+
+
 		elseif key:lower() == "a" then
+
+
 			ctrl.l = -1
+
+
 		elseif key:lower() == "d" then
+
+
 			ctrl.r = 1
+
+
 		end
+
+
 	end)
+
+
 
 	mouse.KeyUp:connect(function(key)
+
+
 		if key:lower() == "w" then
+
+
 			ctrl.f = 0
+
+
 		elseif key:lower() == "s" then
+
+
 			ctrl.b = 0
+
+
 		elseif key:lower() == "a" then
+
+
 			ctrl.l = 0
+
+
 		elseif key:lower() == "d" then
+
+
 			ctrl.r = 0
+
+
 		end
+
+
 	end)
 
+
+
 	Fly()
+
+
 end)
+
+
 
 
 HitBox.MouseButton1Down:connect(function()
+
+
 	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Loaded", Text = "t = Enabled : p = disabled."})
+
+
 	local player = game.Players.LocalPlayer
+
+
 	local mouse = player:GetMouse()
+
+
 
 	-- Settings
 
+
+
 	bind = ""
+
+
 	bind2 = "t"
+
+
 	bind3 = "p"
+
+
 
 	-- Script
 
+
+
 	mouse.KeyDown:connect(function(key)
+
+
 		if key == bind then
+
+
 			player.Character.HumanoidRootPart.CFrame = CFrame.new(1254.09656, 137.906067, -172.128204)
+
+
 		end
+
+
 	end)
 
+
+
 	mouse.KeyDown:connect(function(key2)
+
+
 		if key2 == bind2 then
+
+
 			_G.HeadSize = 10
+
+
 			_G.Disabled = true
+
+
 
 
 			if _G.Disabled then
+
+
 				for i,v in next, game:GetService('Players'):GetPlayers() do
+
+
 					if v.Name ~= game:GetService('Players').LocalPlayer.Name then
+
+
 						pcall(function()
+
+
 							v.Character.HumanoidRootPart.Size = Vector3.new(_G.HeadSize,_G.HeadSize,_G.HeadSize)
+
+
 							v.Character.HumanoidRootPart.Transparency = 0.7
+
+
 							v.Character.HumanoidRootPart.BrickColor = BrickColor.new("Bright red")
+
+
 							v.Character.HumanoidRootPart.Material = "Neon"
+
+
 							v.Character.HumanoidRootPart.CanCollide = false
+
+
 						end)
+
+
 					end
+
+
 				end
+
+
 			end
+
+
 		end
+
+
 	end)
 
+
+
 	mouse.KeyDown:connect(function(key3)
+
+
 		if key3 == bind3 then
+
+
 			_G.HeadSize = 10
+
+
 			_G.Disabled = true
 
 
+
+
 			for i,v in next, game:GetService('Players'):GetPlayers() do
+
+
 				if v.Name ~= game:GetService('Players').LocalPlayer.Name then
+
+
 					pcall(function()
+
+
 						v.Character.HumanoidRootPart.Size = Vector3.new(2, 2, 1)
+
+
 						v.Character.HumanoidRootPart.Transparency = 1
+
+
 						v.Character.HumanoidRootPart.BrickColor = BrickColor.new("Medium stone grey")
+
+
 						v.Character.HumanoidRootPart.Material = "Plastic"
+
+
 						v.Character.HumanoidRootPart.CanCollide = false
+
+
 					end)
+
+
 				end
+
+
 			end
+
+
 		end
+
+
 	end)
+
+
 end)
+
+
 
 Btools.MouseButton1Down:connect(function()
 
+
+
 	backpack = game:GetService("Players").LocalPlayer.Backpack
 
+
+
 	hammer = Instance.new("HopperBin")
+
+
 	hammer.Name = "Hammer"
+
+
 	hammer.BinType = 4
+
+
 	hammer.Parent = backpack
 
+
+
 	cloneTool = Instance.new("HopperBin")
+
+
 	cloneTool.Name = "Clone"
+
+
 	cloneTool.BinType = 3
+
+
 	cloneTool.Parent = backpack
 
+
+
 	grabTool = Instance.new("HopperBin")
+
+
 	grabTool.Name = "Grab"
+
+
 	grabTool.BinType = 2
+
+
 	grabTool.Parent = backpack
+
+
 end)
+
+
 
 Esp.MouseButton1Down:connect(function()
 
+
+
 	_G.WRDESPEnabled = nil --Enables the ESP (Defaults to true)
+
+
 	_G.WRDESPBoxes = nil --Draws boxes around other players (Defaults to true)
+
+
 	_G.WRDESPTeamColors = nil --Distinguish different teams by their team color. If the game sets one. (Defaults to true)
+
+
 	_G.WRDESPTracers = nil --Displays lines leading to other players (Defaults to false)
+
+
 	_G.WRDESPNames = nil --Displays the names of the players within the ESP box (Defaults to true)
+
+
 
 	--Dont edit below
 
+
+
 	--Only ever load the script once
+
+
 	if not _G.WRDESPLoaded then    
+
+
 		----[[ First- Load Kiriot ESP Library ]]----
 
+
+
 		--Settings--
+
+
 		local ESP = {
+
+
 			Enabled = false,
+
+
 			Boxes = true,
+
+
 			BoxShift = CFrame.new(0,-1.5,0),
+
+
 			BoxSize = Vector3.new(4,6,0),
+
+
 			Color = Color3.fromRGB(255, 170, 0),
+
+
 			FaceCamera = false,
+
+
 			Names = true,
+
+
 			TeamColor = true,
+
+
 			Thickness = 2,
+
+
 			AttachShift = 1,
+
+
 			TeamMates = true,
+
+
 			Players = true,
 
+
+
 			Objects = setmetatable({}, {__mode="kv"}),
+
+
 			Overrides = {}
+
+
 		}
 
+
+
 		--Declarations--
+
+
 		local cam = workspace.CurrentCamera
+
+
 		local plrs = game:GetService("Players")
+
+
 		local plr = plrs.LocalPlayer
+
+
 		local mouse = plr:GetMouse()
 
+
+
 		local V3new = Vector3.new
+
+
 		local WorldToViewportPoint = cam.WorldToViewportPoint
 
+
+
 		--Functions--
+
+
 		local function Draw(obj, props)
+
+
 			local new = Drawing.new(obj)
 
+
+
 			props = props or {}
+
+
 			for i,v in pairs(props) do
+
+
 				new[i] = v
+
+
 			end
+
+
 			return new
+
+
 		end
+
+
 
 		function ESP:GetTeam(p)
+
+
 			local ov = self.Overrides.GetTeam
+
+
 			if ov then
+
+
 				return ov(p)
+
+
 			end
+
+
 
 			return p and p.Team
+
+
 		end
+
+
 
 		function ESP:IsTeamMate(p)
+
+
 			local ov = self.Overrides.IsTeamMate
+
+
 			if ov then
+
+
 				return ov(p)
+
+
 			end
+
+
 
 			return self:GetTeam(p) == self:GetTeam(plr)
+
+
 		end
+
+
 
 		function ESP:GetColor(obj)
+
+
 			local ov = self.Overrides.GetColor
+
+
 			if ov then
+
+
 				return ov(obj)
+
+
 			end
+
+
 			local p = self:GetPlrFromChar(obj)
+
+
 			return p and self.TeamColor and p.Team and p.Team.TeamColor.Color or self.Color
+
+
 		end
+
+
 
 		function ESP:GetPlrFromChar(char)
+
+
 			local ov = self.Overrides.GetPlrFromChar
+
+
 			if ov then
+
+
 				return ov(char)
+
+
 			end
+
+
 
 			return plrs:GetPlayerFromCharacter(char)
+
+
 		end
+
+
 
 		function ESP:Toggle(bool)
+
+
 			self.Enabled = bool
+
+
 			if not bool then
+
+
 				for i,v in pairs(self.Objects) do
+
+
 					if v.Type == "Box" then --fov circle etc
+
+
 						if v.Temporary then
+
+
 							v:Remove()
+
+
 						else
+
+
 							for i,v in pairs(v.Components) do
+
+
 								v.Visible = false
+
+
 							end
+
+
 						end
+
+
 					end
+
+
 				end
+
+
 			end
+
+
 		end
+
+
 
 		function ESP:GetBox(obj)
+
+
 			return self.Objects[obj]
+
+
 		end
+
+
 
 		function ESP:AddObjectListener(parent, options)
+
+
 			local function NewListener(c)
+
+
 				if type(options.Type) == "string" and c:IsA(options.Type) or options.Type == nil then
+
+
 					if type(options.Name) == "string" and c.Name == options.Name or options.Name == nil then
+
+
 						if not options.Validator or options.Validator(c) then
+
+
 							local box = ESP:Add(c, {
+
+
 								PrimaryPart = type(options.PrimaryPart) == "string" and c:WaitForChild(options.PrimaryPart) or type(options.PrimaryPart) == "function" and options.PrimaryPart(c),
+
+
 								Color = type(options.Color) == "function" and options.Color(c) or options.Color,
+
+
 								ColorDynamic = options.ColorDynamic,
+
+
 								Name = type(options.CustomName) == "function" and options.CustomName(c) or options.CustomName,
+
+
 								IsEnabled = options.IsEnabled,
+
+
 								RenderInNil = options.RenderInNil
+
+
 							})
+
+
 							--TODO: add a better way of passing options
+
+
 							if options.OnAdded then
+
+
 								coroutine.wrap(options.OnAdded)(box)
+
+
 							end
+
+
 						end
+
+
 					end
+
+
 				end
+
+
 			end
+
+
 
 			if options.Recursive then
+
+
 				parent.DescendantAdded:Connect(NewListener)
+
+
 				for i,v in pairs(parent:GetDescendants()) do
+
+
 					coroutine.wrap(NewListener)(v)
+
+
 				end
+
+
 			else
+
+
 				parent.ChildAdded:Connect(NewListener)
+
+
 				for i,v in pairs(parent:GetChildren()) do
+
+
 					coroutine.wrap(NewListener)(v)
+
+
 				end
+
+
 			end
+
+
 		end
+
+
 
 		local boxBase = {}
+
+
 		boxBase.__index = boxBase
 
+
+
 		function boxBase:Remove()
+
+
 			ESP.Objects[self.Object] = nil
+
+
 			for i,v in pairs(self.Components) do
+
+
 				v.Visible = false
+
+
 				v:Remove()
+
+
 				self.Components[i] = nil
+
+
 			end
+
+
 		end
+
+
 
 		function boxBase:Update()
+
+
 			if not self.PrimaryPart then
+
+
 				--warn("not supposed to print", self.Object)
+
+
 				return self:Remove()
+
+
 			end
+
+
 
 			local color
+
+
 			if ESP.Highlighted == self.Object then
+
+
 				color = ESP.HighlightColor
+
+
 			else
+
+
 				color = self.Color or self.ColorDynamic and self:ColorDynamic() or ESP:GetColor(self.Object) or ESP.Color
+
+
 			end
+
+
 
 			local allow = true
+
+
 			if ESP.Overrides.UpdateAllow and not ESP.Overrides.UpdateAllow(self) then
+
+
 				allow = false
+
+
 			end
+
+
 			if self.Player and not ESP.TeamMates and ESP:IsTeamMate(self.Player) then
+
+
 				allow = false
+
+
 			end
+
+
 			if self.Player and not ESP.Players then
+
+
 				allow = false
+
+
 			end
+
+
 			if self.IsEnabled and (type(self.IsEnabled) == "string" and not ESP[self.IsEnabled] or type(self.IsEnabled) == "function" and not self:IsEnabled()) then
+
+
 				allow = false
+
+
 			end
+
+
 			if not workspace:IsAncestorOf(self.PrimaryPart) and not self.RenderInNil then
+
+
 				allow = false
+
+
 			end
+
+
 
 			if not allow then
+
+
 				for i,v in pairs(self.Components) do
+
+
 					v.Visible = false
+
+
 				end
+
+
 				return
+
+
 			end
+
+
 
 			if ESP.Highlighted == self.Object then
+
+
 				color = ESP.HighlightColor
+
+
 			end
+
+
 
 			--calculations--
+
+
 			local cf = self.PrimaryPart.CFrame
+
+
 			if ESP.FaceCamera then
+
+
 				cf = CFrame.new(cf.p, cam.CFrame.p)
+
+
 			end
+
+
 			local size = self.Size
+
+
 			local locs = {
+
+
 				TopLeft = cf * ESP.BoxShift * CFrame.new(size.X/2,size.Y/2,0),
+
+
 				TopRight = cf * ESP.BoxShift * CFrame.new(-size.X/2,size.Y/2,0),
+
+
 				BottomLeft = cf * ESP.BoxShift * CFrame.new(size.X/2,-size.Y/2,0),
+
+
 				BottomRight = cf * ESP.BoxShift * CFrame.new(-size.X/2,-size.Y/2,0),
+
+
 				TagPos = cf * ESP.BoxShift * CFrame.new(0,size.Y/2,0),
+
+
 				Torso = cf * ESP.BoxShift
+
+
 			}
 
+
+
 			if ESP.Boxes then
+
+
 				local TopLeft, Vis1 = WorldToViewportPoint(cam, locs.TopLeft.p)
+
+
 				local TopRight, Vis2 = WorldToViewportPoint(cam, locs.TopRight.p)
+
+
 				local BottomLeft, Vis3 = WorldToViewportPoint(cam, locs.BottomLeft.p)
+
+
 				local BottomRight, Vis4 = WorldToViewportPoint(cam, locs.BottomRight.p)
 
+
+
 				if self.Components.Quad then
+
+
 					if Vis1 or Vis2 or Vis3 or Vis4 then
+
+
 						self.Components.Quad.Visible = true
+
+
 						self.Components.Quad.PointA = Vector2.new(TopRight.X, TopRight.Y)
+
+
 						self.Components.Quad.PointB = Vector2.new(TopLeft.X, TopLeft.Y)
+
+
 						self.Components.Quad.PointC = Vector2.new(BottomLeft.X, BottomLeft.Y)
+
+
 						self.Components.Quad.PointD = Vector2.new(BottomRight.X, BottomRight.Y)
+
+
 						self.Components.Quad.Color = color
+
+
 					else
+
+
 						self.Components.Quad.Visible = false
+
+
 					end
+
+
 				end
+
+
 			else
+
+
 				self.Components.Quad.Visible = false
+
+
 			end
+
+
 
 			if ESP.Names then
+
+
 				local TagPos, Vis5 = WorldToViewportPoint(cam, locs.TagPos.p)
 
+
+
 				if Vis5 then
+
+
 					self.Components.Name.Visible = true
+
+
 					self.Components.Name.Position = Vector2.new(TagPos.X, TagPos.Y)
+
+
 					self.Components.Name.Text = self.Name
+
+
 					self.Components.Name.Color = color
 
+
+
 					self.Components.Distance.Visible = true
+
+
 					self.Components.Distance.Position = Vector2.new(TagPos.X, TagPos.Y + 14)
+
+
 					self.Components.Distance.Text = math.floor((cam.CFrame.p - cf.p).magnitude) .."m away"
+
+
 					self.Components.Distance.Color = color
+
+
 				else
+
+
 					self.Components.Name.Visible = false
+
+
 					self.Components.Distance.Visible = false
+
+
 				end
+
+
 			else
+
+
 				self.Components.Name.Visible = false
+
+
 				self.Components.Distance.Visible = false
+
+
 			end
+
+
 
 			if ESP.Tracers then
+
+
 				local TorsoPos, Vis6 = WorldToViewportPoint(cam, locs.Torso.p)
 
+
+
 				if Vis6 then
+
+
 					self.Components.Tracer.Visible = true
+
+
 					self.Components.Tracer.From = Vector2.new(TorsoPos.X, TorsoPos.Y)
+
+
 					self.Components.Tracer.To = Vector2.new(cam.ViewportSize.X/2,cam.ViewportSize.Y/ESP.AttachShift)
+
+
 					self.Components.Tracer.Color = color
+
+
 				else
+
+
 					self.Components.Tracer.Visible = false
+
+
 				end
+
+
 			else
+
+
 				self.Components.Tracer.Visible = false
+
+
 			end
+
+
 		end
+
+
 
 		function ESP:Add(obj, options)
+
+
 			if not obj.Parent and not options.RenderInNil then
+
+
 				return warn(obj, "has no parent")
+
+
 			end
+
+
 
 			local box = setmetatable({
+
+
 				Name = options.Name or obj.Name,
+
+
 				Type = "Box",
+
+
 				Color = options.Color --[[or self:GetColor(obj)]],
+
+
 				Size = options.Size or self.BoxSize,
+
+
 				Object = obj,
+
+
 				Player = options.Player or plrs:GetPlayerFromCharacter(obj),
+
+
 				PrimaryPart = options.PrimaryPart or obj.ClassName == "Model" and (obj.PrimaryPart or obj:FindFirstChild("HumanoidRootPart") or obj:FindFirstChildWhichIsA("BasePart")) or obj:IsA("BasePart") and obj,
+
+
 				Components = {},
+
+
 				IsEnabled = options.IsEnabled,
+
+
 				Temporary = options.Temporary,
+
+
 				ColorDynamic = options.ColorDynamic,
+
+
 				RenderInNil = options.RenderInNil
+
+
 			}, boxBase)
 
+
+
 			if self:GetBox(obj) then
+
+
 				self:GetBox(obj):Remove()
+
+
 			end
+
+
 
 			box.Components["Quad"] = Draw("Quad", {
+
+
 				Thickness = self.Thickness,
+
+
 				Color = color,
+
+
 				Transparency = 1,
+
+
 				Filled = false,
+
+
 				Visible = self.Enabled and self.Boxes
+
+
 			})
+
+
 			box.Components["Name"] = Draw("Text", {
+
+
 				Text = box.Name,
+
+
 				Color = box.Color,
+
+
 				Center = true,
+
+
 				Outline = true,
+
+
 				Size = 19,
+
+
 				Visible = self.Enabled and self.Names
+
+
 			})
+
+
 			box.Components["Distance"] = Draw("Text", {
+
+
 				Color = box.Color,
+
+
 				Center = true,
+
+
 				Outline = true,
+
+
 				Size = 19,
+
+
 				Visible = self.Enabled and self.Names
+
+
 			})
+
+
 
 			box.Components["Tracer"] = Draw("Line", {
+
+
 				Thickness = ESP.Thickness,
+
+
 				Color = box.Color,
+
+
 				Transparency = 1,
+
+
 				Visible = self.Enabled and self.Tracers
+
+
 			})
+
+
 			self.Objects[obj] = box
 
+
+
 			obj.AncestryChanged:Connect(function(_, parent)
+
+
 				if parent == nil and ESP.AutoRemove ~= false then
+
+
 					box:Remove()
+
+
 				end
+
+
 			end)
+
+
 			obj:GetPropertyChangedSignal("Parent"):Connect(function()
+
+
 				if obj.Parent == nil and ESP.AutoRemove ~= false then
+
+
 					box:Remove()
+
+
 				end
+
+
 			end)
+
+
 
 			local hum = obj:FindFirstChildOfClass("Humanoid")
+
+
 			if hum then
+
+
 				hum.Died:Connect(function()
+
+
 					if ESP.AutoRemove ~= false then
+
+
 						box:Remove()
+
+
 					end
+
+
 				end)
+
+
 			end
+
+
 
 			return box
+
+
 		end
+
+
 
 		local function CharAdded(char)
+
+
 			local p = plrs:GetPlayerFromCharacter(char)
+
+
 			if not char:FindFirstChild("HumanoidRootPart") then
+
+
 				local ev
+
+
 				ev = char.ChildAdded:Connect(function(c)
+
+
 					if c.Name == "HumanoidRootPart" then
+
+
 						ev:Disconnect()
+
+
 						ESP:Add(char, {
+
+
 							Name = p.Name,
+
+
 							Player = p,
+
+
 							PrimaryPart = c
+
+
 						})
+
+
 					end
+
+
 				end)
+
+
 			else
+
+
 				ESP:Add(char, {
+
+
 					Name = p.Name,
+
+
 					Player = p,
+
+
 					PrimaryPart = char.HumanoidRootPart
+
+
 				})
+
+
 			end
-		end
-		local function PlayerAdded(p)
-			p.CharacterAdded:Connect(CharAdded)
-			if p.Character then
-				coroutine.wrap(CharAdded)(p.Character)
-			end
-		end
-		plrs.PlayerAdded:Connect(PlayerAdded)
-		for i,v in pairs(plrs:GetPlayers()) do
-			if v ~= plr then
-				PlayerAdded(v)
-			end
+
+
 		end
 
-		game:GetService("RunService").RenderStepped:Connect(function()
-			cam = workspace.CurrentCamera
-			for i,v in (ESP.Enabled and pairs or ipairs)(ESP.Objects) do
-				if v.Update then
-					local s,e = pcall(v.Update, v)
-					if not s then warn("[EU]", e, v.Object:GetFullName()) end
-				end
+
+		local function PlayerAdded(p)
+
+
+			p.CharacterAdded:Connect(CharAdded)
+
+
+			if p.Character then
+
+
+				coroutine.wrap(CharAdded)(p.Character)
+
+
 			end
+
+
+		end
+
+
+		plrs.PlayerAdded:Connect(PlayerAdded)
+
+
+		for i,v in pairs(plrs:GetPlayers()) do
+
+
+			if v ~= plr then
+
+
+				PlayerAdded(v)
+
+
+			end
+
+
+		end
+
+
+
+		game:GetService("RunService").RenderStepped:Connect(function()
+
+
+			cam = workspace.CurrentCamera
+
+
+			for i,v in (ESP.Enabled and pairs or ipairs)(ESP.Objects) do
+
+
+				if v.Update then
+
+
+					local s,e = pcall(v.Update, v)
+
+
+					if not s then warn("[EU]", e, v.Object:GetFullName()) end
+
+
+				end
+
+
+			end
+
+
 		end)
+
+
 
 		----[[ Now Begins WRD's modification for implementation ]]----
 
+
+
 		--Sets defaults where required
+
+
 		if _G.WRDESPEnabled == nil then _G.WRDESPEnabled = true end
+
+
 		if _G.WRDESPBoxes == nil then _G.WRDESPBoxes = true end
+
+
 		if _G.WRDESPTeamColors == nil then _G.WRDESPTeamColors = true end
+
+
 		if _G.WRDESPTracers == nil then _G.WRDESPTracers = false end
+
+
 		if _G.WRDESPNames == nil then _G.WRDESPNames = true end
 
+
+
 		--Hacky way to keep up with setting changes
+
+
 		while wait(.1) do
+
+
 			ESP:Toggle(_G.WRDESPEnabled or false)
+
+
 			ESP.Boxes = _G.WRDESPBoxes or false
+
+
 			ESP.TeamColors = _G.WRDESPTeamColors or false
+
+
 			ESP.Tracers = _G.WRDESPTracers or false
+
+
 			ESP.Names = _G.WRDESPNames or false
+
+
 		end
 
+
+
 		_G.WRDESPLoaded = true
+
+
 	end
+
+
 end)
+
+
 
 crim.MouseButton1Down:connect(function()
+
+
 	wait(0.3)
+
+
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-976.125183, 109.123924, 2059.99536)
 
+
+
 	wait(0.3)
+
+
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(918.77,100,2379.07)
+
+
 end)
+
+
 
 Key.MouseButton1Down:connect(function()
+
+
 	local Remote = game.Workspace.Remote['ItemHandler']
 
+
+
 	local Arguments = {
+
+
 		[1] = Workspace.Prison_ITEMS.single:WaitForChild("Key card").ITEMPICKUP
+
+
 	}
 
+
+
 	Remote:InvokeServer(unpack(Arguments))
+
+
 end)
+
+
 
 AK47.MouseButton1Down:connect(function()
+
+
 	Game.Workspace.Remote.ItemHandler:InvokeServer(Workspace["Prison_ITEMS"].giver["AK-47"].ITEMPICKUP)
+
+
 	local plr = game.Players.LocalPlayer
+
+
 	local gun = plr.Backpack["AK-47"].GunStates
+
+
 	local a = require(gun)
 
+
+
 	a.MaxAmmo = math.huge
+
+
 	a.CurrentAmmo = math.huge
+
+
 	a.FireRate = 0
+
+
 	a.Range = 4000
+
+
 	a.Bullets = 10
+
+
 end)
+
+
 
 ShutGun.MouseButton1Down:connect(function()
+
+
 	Game.Workspace.Remote.ItemHandler:InvokeServer(Workspace["Prison_ITEMS"].giver["Remington 870"].ITEMPICKUP)
+
+
 	local plr = game.Players.LocalPlayer
+
+
 	local gun = plr.Backpack["Remington 870"].GunStates
+
+
 	local a = require(gun)
 
+
+
 	a.MaxAmmo = math.huge
+
+
 	a.CurrentAmmo = math.huge
+
+
 	a.FireRate = 0
+
+
 	a.Range = 4000
+
+
 	a.Bullets = 10
+
+
 end)
+
+
 
 Pistol.MouseButton1Down:connect(function()
+
+
 	Game.Workspace.Remote.ItemHandler:InvokeServer(Workspace["Prison_ITEMS"].giver["M9"].ITEMPICKUP)
+
+
 	local plr = game.Players.LocalPlayer
+
+
 	local gun = plr.Backpack["M9"].GunStates
+
+
 	local a = require(gun)
 
+
+
 	a.MaxAmmo = math.huge
+
+
 	a.CurrentAmmo = math.huge
+
+
 	a.FireRate = 0
+
+
 	a.Range = 4000
+
+
 	a.Bullets = 10
+
+
 end)
+
+
+
+
+FlingV2.MouseButton1Down:Connect(function()
+
+
+	--[[
+
+
+	FE Invisible Fling
+
+
+	By: Diemiers#4209
+
+
+	Modded By: OpenGamerTips	
+
+
+	
+
+
+	Keybinds:
+
+
+	Z to Start
+
+
+	X to Respawn
+
+
+
+	Mods:
+
+
+	- Made More Readable
+
+
+	- Made Changeable Fly Speeds
+
+
+	- Fixed Spam X Bug (Man, the creator was lazy.)
+
+
+	- Cleaned Up Code
+
+
+]]--
+
+
+
+	--------------------
+
+
+	-- Changeable Speeds:
+
+
+	speed = 20
+
+
+	maxspeed = 120
+
+
+	--------------------
+
+
+
+	lockedstate = false
+
+
+	spawn(function()
+
+
+		local message = Instance.new("Message", workspace)
+
+
+		message.Text = "Modded Invisible Fling Loaded\nPress Z to start\nPress X to respawn"
+
+
+		wait(2)
+
+
+		message:Destroy()
+
+
+	end)
+
+
+
+	local mouse = game:GetService("Players").LocalPlayer:GetMouse()
+
+
+	local groot = nil
+
+
+
+	mouse.KeyDown:connect(function(k)
+
+
+		if k == "z" then
+
+
+			spawn(function()
+
+
+				local message = Instance.new("Message", workspace)
+
+
+				message.Text = "Please Wait...\nWe are bypassing your respawn timer"
+
+
+				wait(11)
+
+
+				message:Destroy()
+
+
+			end)
+
+
+
+			local ch = game:GetService("Players").LocalPlayer.Character
+
+
+			local prt = Instance.new("Model", workspace)
+
+
+			local z1 =  Instance.new("Part", prt)
+
+
+			z1.Name = "Torso"
+
+
+			z1.CanCollide = false
+
+
+			z1.Anchored = true
+
+
+			local z2  = Instance.new("Part", prt)
+
+
+			z2.Name = "Head"
+
+
+			z2.Anchored = true
+
+
+			z2.CanCollide = false
+
+
+			local z3 = Instance.new("Humanoid", prt)
+
+
+			z3.Name = "Humanoid"
+
+
+			z1.Position = Vector3.new(0, 9999, 0)
+
+
+			z2.Position = Vector3.new(0, 9991, 0)
+
+
+			game:GetService("Players").LocalPlayer.Character = prt
+
+
+			wait(5)
+
+
+			game:GetService("Players").LocalPlayer.Character = ch
+
+
+			wait(6)
+
+
+
+			local plr = game:GetService("Players").LocalPlayer
+
+
+			mouse = plr:GetMouse()
+
+
+
+			local Hum = Instance.new("Humanoid")
+
+
+			Hum.Parent = game:GetService("Players").LocalPlayer.Character
+
+
+
+			local root =  game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
+
+
+
+			for i, v in pairs(plr.Character:GetChildren()) do
+
+
+
+				if v ~= root and  v.Name ~= "Humanoid" then
+
+
+
+					v:Destroy()
+
+
+
+				end
+
+
+			end
+
+
+
+			workspace.CurrentCamera.CameraSubject = root
+
+
+
+			local se = Instance.new("SelectionBox", root)
+
+
+			se.Adornee = root
+
+
+
+			game:GetService('RunService').Stepped:connect(function()
+
+
+				game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CanCollide = false
+
+
+			end)
+
+
+			game:GetService('RunService').RenderStepped:connect(function()
+
+
+				game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CanCollide = false
+
+
+			end)
+
+
+
+			local power = 999999 
+
+
+
+			power = power * 10
+
+
+
+			wait(.1)
+
+
+			local bambam = Instance.new("BodyThrust")
+
+
+			bambam.Parent = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
+
+
+			bambam.Force = Vector3.new(power, 0, power)
+
+
+			bambam.Location = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position 
+
+
+
+			local plr = game:GetService("Players").LocalPlayer
+
+
+			local torso = root
+
+
+			local flying = true
+
+
+			local deb = true
+
+
+			local ctrl = {
+
+
+				f = 0,
+
+
+				b = 0,
+
+
+				l = 0,
+
+
+				r = 0
+
+
+			}
+
+
+			local lastctrl = {
+
+
+				f = 0,
+
+
+				b = 0,
+
+
+				l = 0,
+
+
+				r = 0
+
+
+			}
+
+
+
+			groot = root
+
+
+
+			function Fly()
+
+
+				local bg = Instance.new("BodyGyro", torso)
+
+
+				bg.P = 9e4
+
+
+				bg.maxTorque = Vector3.new(0, 0, 0)
+
+
+				bg.cframe = torso.CFrame
+
+
+				local bv = Instance.new("BodyVelocity", torso)
+
+
+				bv.velocity = Vector3.new(0, 0, 0)
+
+
+				bv.maxForce = Vector3.new(9e9, 9e9, 9e9)
+
+
+				repeat
+
+
+					wait()
+
+
+
+					if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
+
+
+						speed = speed + .2
+
+
+						if speed > maxspeed then
+
+
+							speed = maxspeed
+
+
+						end
+
+
+					elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then
+
+
+						speed = speed - 1
+
+
+						if speed < 0 then
+
+
+							speed = 0
+
+
+						end
+
+
+					end
+
+
+					if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then
+
+
+						bv.velocity = ((workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f + ctrl.b)) + ((workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l + ctrl.r, (ctrl.f + ctrl.b) * .2, 0).p) - workspace.CurrentCamera.CoordinateFrame.p)) * speed
+
+
+						lastctrl = {
+
+
+							f = ctrl.f,
+
+
+							b = ctrl.b,
+
+
+							l = ctrl.l,
+
+
+							r = ctrl.r
+
+
+						}
+
+
+					elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then
+
+
+						bv.velocity = ((workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f + lastctrl.b)) + ((workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l + lastctrl.r, (lastctrl.f + lastctrl.b) * .2, 0).p) - workspace.CurrentCamera.CoordinateFrame.p)) * speed
+
+
+					else
+
+
+						bv.velocity = Vector3.new(0, 0.1, 0)
+
+
+					end
+
+
+
+				until not flying
+
+
+				ctrl = {
+
+
+					f = 0,
+
+
+					b = 0,
+
+
+					l = 0,
+
+
+					r = 0
+
+
+				}
+
+
+				lastctrl = {
+
+
+					f = 0,
+
+
+					b = 0,
+
+
+					l = 0,
+
+
+					r = 0
+
+
+				}
+
+
+				speed = 0
+
+
+				bg:Destroy()
+
+
+				bv:Destroy()
+
+
+
+			end
+
+
+			mouse.KeyDown:connect(function(key)
+
+
+				if key:lower() == "e" then
+
+
+					if flying then
+
+
+						flying = false
+
+
+					else
+
+
+						flying = true
+
+
+						Fly()
+
+
+					end
+
+
+				elseif key:lower() == "w" then
+
+
+					ctrl.f = 1
+
+
+				elseif key:lower() == "s" then
+
+
+					ctrl.b = -1
+
+
+				elseif key:lower() == "a" then
+
+
+					ctrl.l = -1
+
+
+				elseif key:lower() == "d" then
+
+
+					ctrl.r = 1
+
+
+				end
+
+
+			end)
+
+
+			mouse.KeyUp:connect(function(key)
+
+
+				if key:lower() == "w" then
+
+
+					ctrl.f = 0
+
+
+				elseif key:lower() == "s" then
+
+
+					ctrl.b = 0
+
+
+				elseif key:lower() == "a" then
+
+
+					ctrl.l = 0
+
+
+				elseif key:lower() == "d" then
+
+
+					ctrl.r = 0
+
+
+				elseif key:lower() == "r" then
+
+
+
+				end
+
+
+			end)
+
+
+			Fly()
+
+
+
+		elseif k == "x" then
+
+
+			if lockedstate == false then
+
+
+				local lockedstate = true
+
+
+
+				spawn(function()
+
+
+					local message = Instance.new("Message", workspace)
+
+
+					message.Text = "Respawning Character..."
+
+
+					wait(1)
+
+
+					message:Destroy()
+
+
+				end)
+
+
+
+				local saved = groot.Position
+
+
+				local ch = game:GetService("Players").LocalPlayer.Character
+
+
+				local prt = Instance.new("Model", workspace)
+
+
+				local z1 =  Instance.new("Part", prt)
+
+
+				z1.Name = "Torso"
+
+
+				z1.CanCollide = false
+
+
+				z1.Anchored = true
+
+
+				local z2  = Instance.new("Part", prt)
+
+
+				z2.Name = "Head"
+
+
+				z2.Anchored = true
+
+
+				z2.CanCollide = false
+
+
+				local z3 = Instance.new("Humanoid", prt)
+
+
+				z3.Name = "Humanoid"
+
+
+				z1.Position = Vector3.new(0, 9999, 0)
+
+
+				z2.Position = Vector3.new(0, 9991, 0)
+
+
+				game:GetService("Players").LocalPlayer.Character = prt
+
+
+				wait(5)
+
+
+				game:GetService("Players").LocalPlayer.Character = ch
+
+
+				local poop = nil
+
+
+				repeat
+
+
+					wait()
+
+
+					poop = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Head")
+
+
+				until poop ~= nil
+
+
+				wait(1)
+
+
+				game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(saved)
+
+
+				lockedstate = false
+
+
+			end
+
+
+		end
+
+
+	end)
+
+
+end)
+
 
